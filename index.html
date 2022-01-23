@@ -11,15 +11,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <section class="selector-area">
+        <button class="selector button selector-generator">QRCode Generator</button>
+        <button class="selector button selector-reader disabled" disabled>QRCode Reader</button>
+    </section>
+    <section class="reader-area">
     <!-- <video id="preview"></video> -->
 
-    <section class="heading">
-        <div class="title">QRCodes Generator Sample</div>
     </section>
-    <section class="user-input">
-        <textarea type="text" name="userInput" id="userInput" placeholder="Input text..." autocomplete="off"></textarea>
-        <button class="button" type="submit">Generate</button>
+    <section class="generator-area">
+        <section class="heading">
+            <div class="title">QRCodes Generator Sample</div>
+        </section>
+        <section class="user-input">
+            <textarea type="text" name="userInput" id="userInput" placeholder="Input text..." autocomplete="off"></textarea>
+            <button class="generate button" type="submit">Generate</button>
+        </section>
+        <div class="qr-code" style="display: none;"></div>
     </section>
-    <div class="qr-code" style="display: none;"></div>
 </body>
 </html>

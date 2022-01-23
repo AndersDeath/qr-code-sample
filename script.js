@@ -4,6 +4,12 @@
 window.addEventListener("load", () => {
     
 
+const selectorGenerator = document.querySelector('.selector-generator')
+selectorGenerator.addEventListener('click', () => {
+    document.querySelector('.generator-area').style = 'display:flex';
+    document.querySelector('.selector-area').style = 'display:none';
+
+});
     // let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
     //   scanner.addListener('scan', function (content) {
     //     console.log(content);
@@ -19,9 +25,7 @@ window.addEventListener("load", () => {
     //   });
 
 
-
-
-const btn = document.querySelector('.button');
+const btn = document.querySelector('.generate');
 btn.addEventListener('click', () => {
     const userInput = document.querySelector('#userInput');
     if(userInput.value !== '') {
