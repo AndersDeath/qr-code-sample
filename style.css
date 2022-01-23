@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-size-adjust: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5e5e5e;
+}
+
+.heading {
+    margin: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    color: #ADD8E6;
+}
+
+.user-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.user-input textarea {
+    width: 80%;
+    max-width: 35rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    margin: 1rem;
+}
+
+.button {
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    margin-bottom: 1rem;
+    background-color: #001fac;
+    color: #fff;
+}
+
+.qr-code {
+    border-right: 0.5rem solid #ADD8E6;
+    border-left: 0.5rem solid #ADD8E6;
+    border-top: 1rem solid #ADD8E6;
+    border-radius: 0.5rem;
+    background-color: #ADD8E6;
+}
+
+.qr-code button {
+    display: flex;
+    justify-content: center;
+    background-color: #ADD8E6;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+}
+
+.qr-code button a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.qr-code button a:hover {
+    text-decoration: underline;
+}

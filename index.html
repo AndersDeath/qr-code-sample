@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code - Generator</title>
+    <script src="./qrcode.min.js"></script>
+    <script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <video id="preview"></video> -->
+
+    <section class="heading">
+        <div class="title">QRCodes Generator Sample</div>
+    </section>
+    <section class="user-input">
+        <textarea type="text" name="userInput" id="userInput" placeholder="Input text..." autocomplete="off"></textarea>
+        <button class="button" type="submit">Generate</button>
+    </section>
+    <div class="qr-code" style="display: none;"></div>
+</body>
+</html>
