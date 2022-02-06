@@ -33,6 +33,7 @@ body {
 .reader-area, .generator-area {
     display: none;
     flex-direction: column;
+    align-items: center
 }
 
 button:hover {
